@@ -1,5 +1,9 @@
 #include<stdio.h>
 #include<stdbool.h>
+/*
+//Function Name: ToggleCaseString
+//Description: This function changes the case of letter in string
+*/
 void ToggleCaseString(char *str)
 {
     while (*str!='\0')
@@ -7,7 +11,6 @@ void ToggleCaseString(char *str)
         if(*str <= 'Z' && *str >= 'A')
         {
             *str=*str+32;
-            
         }
         else if(*str <= 'z' && *str >= 'a')
         {
